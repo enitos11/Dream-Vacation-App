@@ -1,0 +1,49 @@
+
+
+services:
+
+  frontend:
+    build:
+      context: ./frontend
+    container_name: dream_frontend
+    ports:
+      - "80:80"
+    depends_on:
+      - backend
+    networks:
+      - dream-network
+
+  backend:
+    build:
+      context: ./backend
+    container_name: dream_backend
+    ports:
+      - "5000:5000"
+    env_file:
+      - .env
+    depends_on:
+      - db
+    networks:
+      - dream-network
+
+  db:
+    image: postgres:16-alpine
+    container_name: dream_db
+    restart: always
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: dreamvacation
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    networks:
+      - dream-network
+
+volumes:
+  postgres_data:
+
+networks:
+  dream-network:
+    driver: bridge
