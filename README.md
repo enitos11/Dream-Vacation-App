@@ -45,6 +45,102 @@ This application allows users to create a list of countries they'd like to visit
 
 
 
+# Dream Vacation App - Dockerized Deployment
+
+## Overview
+
+This project containerizes the Dream Vacation App using Docker and Docker Compose.
+
+The application includes:
+
+* React Frontend
+* Node.js Backend
+* PostgreSQL Database
+
+All services run in isolated containers and communicate internally using Docker networking.
+
+---
+
+# Technologies Used
+* Docker
+* Docker Compose
+* React
+* Node.js
+* PostgreSQL
+* Nginx
+
+---
+
+# Project Structure
+dream-vacation-app/
+│
+├── frontend/
+├── backend/
+├── docker-compose.yml
+├── .env
+└── README.md
+
+
+# Setup 
+
+## 1. Clone Repository
+
+Fork Repository
+git clone <my-github-repo-link>
+cd dream-vacation-app
+
+## 2. Start the Application
+docker-compose up 
+
+# Application URLs
+
+Frontend:
+http://localhost:80
+
+Backend:
+http://localhost:5000
+PostgreSQL:
+
+```bash
+localhost:5432
+```
+
+---
+
+# Docker Features Implemented
+
+## Frontend
+
+* Multi-stage Docker build
+* Optimized production image
+* Nginx used for serving static files
+
+## Backend
+
+* Node.js containerized API service
+* Environment variables loaded via `.env`
+
+## Database
+
+* PostgreSQL container
+* Persistent storage using Docker volumes
+
+## Build Containers
+
+```bash
+docker-compose build
+```
+
+## Start Containers
+
+```bash
+docker-compose up
+```
+
+
+
+
+
 Backend dockerfile
 <img width="1090" height="387" alt="image" src="https://github.com/user-attachments/assets/fedc3d94-0895-4078-af0b-62db36b4b12e" />
 
@@ -54,6 +150,9 @@ Frontend dockerfile
 Docker-compose.yml
 <img width="1087" height="892" alt="image" src="https://github.com/user-attachments/assets/647c11ca-cd0e-4e68-89c4-3fbcd5b1758f" />
 <img width="1067" height="416" alt="image" src="https://github.com/user-attachments/assets/4f526dc0-eb0f-4778-ab40-34a487de45ca" />
+
+
+
 
 
 
