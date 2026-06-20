@@ -42,3 +42,19 @@ This application allows users to create a list of countries they'd like to visit
 - **Environment Management**: Separate configurations for different environments (development, staging, production) using environment variables.
 - **Security**: Sensitive information is managed using environment variables and Kubernetes Secrets.
 - **Documentation**: The project is well-documented to facilitate onboarding and maintenance.
+
+
+
+Backend dockerfile
+<img width="1090" height="387" alt="image" src="https://github.com/user-attachments/assets/fedc3d94-0895-4078-af0b-62db36b4b12e" />
+
+Frontend dockerfile
+<img width="1071" height="646" alt="image" src="https://github.com/user-attachments/assets/a245b47f-9f2d-4ec0-ac5f-11de96099d6f" />
+
+Docker-compose.yml
+<img width="1087" height="892" alt="image" src="https://github.com/user-attachments/assets/647c11ca-cd0e-4e68-89c4-3fbcd5b1758f" />
+<img width="1067" height="416" alt="image" src="https://github.com/user-attachments/assets/4f526dc0-eb0f-4778-ab40-34a487de45ca" />
+
+
+
+
