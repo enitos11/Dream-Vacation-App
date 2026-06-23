@@ -155,6 +155,8 @@ docker-compose up
 Backend dockerfile
 <img width="1090" height="387" alt="image" src="https://github.com/user-attachments/assets/fedc3d94-0895-4078-af0b-62db36b4b12e" />
 
+<img width="1077" height="567" alt="image" src="https://github.com/user-attachments/assets/0c43364a-3239-453c-9fd9-0a7d9448b6af" />
+
 Frontend dockerfile
 <img width="1071" height="646" alt="image" src="https://github.com/user-attachments/assets/a245b47f-9f2d-4ec0-ac5f-11de96099d6f" />
 
@@ -165,6 +167,9 @@ Docker-compose.yml
 
 ##output
 <img width="1121" height="946" alt="image" src="https://github.com/user-attachments/assets/c681828d-e0e9-4279-b571-02ea87ee9deb" />
+
+
+
 
 
 
