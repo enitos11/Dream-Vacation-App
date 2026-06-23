@@ -152,6 +152,11 @@ Docker-compose.yml
 <img width="1067" height="416" alt="image" src="https://github.com/user-attachments/assets/4f526dc0-eb0f-4778-ab40-34a487de45ca" />
 
 
+##output
+<img width="1121" height="946" alt="image" src="https://github.com/user-attachments/assets/c681828d-e0e9-4279-b571-02ea87ee9deb" />
+
+
+
 
 
 
