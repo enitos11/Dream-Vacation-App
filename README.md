@@ -135,6 +135,17 @@ docker-compose build
 
 ```bash
 docker-compose up
+
+
+## Backend
+<img width="1076" height="387" alt="image" src="https://github.com/user-attachments/assets/90741dbc-e167-4046-87b6-e8a8996903d9" />
+
+## Frontend
+<img width="1086" height="892" alt="image" src="https://github.com/user-attachments/assets/0ae3e5de-812f-4d26-b4ae-d0249b70c69b" />
+<img width="1076" height="886" alt="image" src="https://github.com/user-attachments/assets/8c111d09-2629-44d6-884c-c050fba12431" />
+
+
+
 ```
 
 
